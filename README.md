@@ -12,7 +12,7 @@ Make sure you have [Node.js](https://nodejs.org/) and npm installed on your mach
 
 1. Clone the repository:
 ```bash
-   git clone gh repo clone vatnaNim/vatna-portfolio
+   gh repo clone vatnaNim/vatna-portfolio
    cd your-repo-name
 ```
 2.Install project dependencies:
