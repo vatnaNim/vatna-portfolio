@@ -71,10 +71,10 @@ const Contect = ({isDarkMode,activeBg, activeColor, activeHover, activeBorder, a
             if (formRef.current) {
                 setLoading(true); 
                 emailjs.sendForm(
-                    "service_03h6aln",
-                    "template_g7ogjbn",
+                    process.env.REACT_APP_EMAILJS_SERVICE_ID!,
+                    process.env.REACT_APP_EMAILJS_TEMPLATE_ID!,
                     formRef.current,
-                    "5ZSDGpWGncpXxY3dY"
+                    process.env.REACT_APP_EMAILJS_PUBLIC_KEY!
                 )
                 .then(() => {
                     setIsRotating(true); 
