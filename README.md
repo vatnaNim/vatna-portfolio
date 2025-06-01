@@ -11,14 +11,14 @@ Make sure you have [Node.js](https://nodejs.org/) and npm installed on your mach
 ### Installation
 
 1. Clone the repository:
-   ```bash
+```bash
    git clone https://github.com/your-username/your-repo-name.git
    cd your-repo-name
-`
+```
 2.Install project dependencies:
-   ```bash
+```bash
    npm install
-   ```
+```
 3.Install the React types package (required for TypeScript projects):
 
 ```bash
